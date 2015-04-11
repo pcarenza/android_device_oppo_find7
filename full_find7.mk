@@ -20,7 +20,7 @@ $(call inherit-product, device/oppo/find7/find7.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_find7
-PRODUCT_DEVICE := find7
+PRODUCT_DEVICE := xenonhd_find7
 PRODUCT_BRAND := OPPO
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_MODEL := Find7

@@ -4,7 +4,7 @@ $(call inherit-product, device/oppo/find7/full_find7.mk)
 $(call inherit-product, vendor/xenonhd/config/nfc_enhanced.mk)
 
 # Inherit some common to stuff.
-$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := xenonhd_find7
 PRODUCT_DEVICE := find7

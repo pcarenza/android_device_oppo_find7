@@ -1,12 +1,12 @@
 $(call inherit-product, device/oppo/find7/full_find7.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common validus stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_find7
+PRODUCT_NAME := validus_find7
 PRODUCT_DEVICE := find7
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
